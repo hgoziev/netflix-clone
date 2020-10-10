@@ -1,0 +1,52 @@
+.tab_door{
+ width: 4.0125rem;
+ height: 4.0125rem;
+fill: var(--main-grey);
+}
+.tab_devices{
+    width: 9.6875rem;
+    height:  9.6875rem;
+    fill: var(--main-grey);
+   }
+ 
+.tab_price{
+    width: 4.5875rem;
+    height:4.5875rem;
+    fill: var(--main-grey);
+   }
+
+.tab_list{
+ display: grid;
+ justify-content: center;
+ align-content: center;
+ text-align: center;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 1rem;
+ list-style: none;
+ color:var(--main-grey);
+ margin: 0 12% ;
+
+}
+.tabs{
+    padding-top:1rem;
+}
+
+ul li:hover{
+    color:#fff;
+    cursor: pointer;
+}
+ul li:hover svg path{
+   fill: #fff;
+}
+
+.active{
+    border-bottom: 4px solid var(--main-red);
+}
+
+.tab_selected{
+    color:#fff;
+
+}
+.tab_selected svg path{
+    fill: #ffffff;
+}

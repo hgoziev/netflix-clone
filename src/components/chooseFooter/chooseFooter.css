@@ -1,0 +1,30 @@
+.Footcontainer{
+    display:grid;
+    justify-content : center ;
+    background-color:#f3f3f3 !important;
+    padding: 1.875rem 0;
+   
+    position:relative ;
+    z-index:500;
+    margin-top:10rem;
+    border-top:1px solid #e6e6e6 ;
+   
+}
+.footer_columns{
+    width: 80%;
+    margin: 1rem 3rem 0  3rem;
+    color:#999; 
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-gap: 0.3rem;
+}
+
+.footer_container{
+    margin: 0 auto ;
+    padding:1.25rem ;
+}
+
+.footer_container >span:hover{
+   text-decoration: underline;
+   cursor: pointer;
+}
